@@ -24,22 +24,30 @@
 <body>
     <img id="dailyImage" src="" alt="Daily Image" />
     <script>
-        // Array of images
         const images = [
-            'image1.jpg',
-            'image2.jpg',
-            'image3.jpg',
-            'image4.jpg'
-            // Add more images as needed
-        ];
-
-        // Get the current date
+            'Duolingo.png',
+            'amir.jpeg',
+            'bruh.jpeg',
+            'dance-cat.gif',
+            'hamster.jpeg',
+            'meme.jpeg',
+            'meme1.jpeg',
+            'meme2.jpeg',
+            'meme3.jpeg',
+            'meme4.jpeg',
+            'meme5.jpeg',
+            'meme5.png',
+            'meme6.jpeg',
+            'meme7.jpeg',
+            'meme8.jpeg',
+            'meme88.jpeg'
+            'meme9.jpeg',
+            'my king.jpeg',
+            'rickroll hug.gif',
+            
+        ] ;
         const date = new Date();
-        
-        // Use the current date to select an image based on the day of the month
         const imageIndex = date.getDate() % images.length;
-
-        // Set the selected image source
         document.getElementById('dailyImage').src = images[imageIndex];
     </script>
 </body>
